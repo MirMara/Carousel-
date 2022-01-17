@@ -1,0 +1,58 @@
+* {
+    background-color: #729de8;
+    background-image: url(http://www.transparenttextures.com/patterns/scribble-light.png);
+   
+}
+
+.body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 500px;
+}
+
+.title {
+text-align: center;
+margin-bottom: 150px;
+color: rgba(3, 88, 247, 0.74);
+font-size: 40px;
+font-family: cursive;
+font-weight: bold;
+}
+
+.pics {
+  overflow: hidden;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 800px;
+  scroll-behavior: smooth;
+}
+
+.imgRef {
+  overflow: hidden;
+  position: relative;
+  width: 2000px;
+}
+
+img {
+  margin: 0 20px;
+}
+
+.btn {
+  position: relative;
+}
+
+.btns:nth-of-type(2) {
+  left: 100vh;
+}
+
+.btns {
+  position: absolute;
+  top: -200px; 
+  border: 0;
+  padding: 20px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.226);
+  border-radius: 50%;
+  align-items: center;
+}
